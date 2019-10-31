@@ -5,58 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="js/datosEmisoras.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
     <title></title>
 </head>
 
 
 <body>
 
-    <!-- PAGINA PRICIPAL -->
-    <div data-role="page" id="principal" data-theme="b">
+    <!-- PAGINA EMISORAS -->
+    <div data-role="page" id="emisoras" data-theme="b">
+        <!-- PANEL LISTA DE EMISORAS -->
+        <div data-role="panel" id="panelLista" data-theme="b" data-display="overlay" data-position-fixed="true">
+            <div class="panel-content">
+                <ul data-role="listview" data-inset="true" id="listaEmisoras">
+                </ul>
+            </div>
+            <div>
+                <button data-role="button" data-rel="close" data-theme="a" data-inline="true">Cerrar</button>
+            </div>
+        </div>
         <!-- CABECERA -->
         <div data-role="header" data-position="fixed">
-            <h1 style="color: darkcyan;font-size: 24px;">Radios internet</h1>
+            <p class="titulo">Radios internet</p>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#panelLista" data-icon="bullets">Lista de emisoras</a></li>
+                    <li><a href="#panelInfo" data-icon="user">Información</a></li>
+                </ul>
+            </div>
         </div>
 
         <!-- CONTENIDO -->
         <div role="main" class="ui-content">
-            <ul data-role="listview" data-inset="true" id="listaEmisoras">
-            </ul>
+            <img id="logoEmisoraSonando" src="logos/cara.gif">
+            <p id="tituloEmisoraSonando">
+                Elige una emisora...
+            </p>
+            <button data-role="button" id="botonPausa" class="botonPausa">Pausa</button>
         </div>
 
-        <!-- PIE DE PÁGINA -->
-        <div data-role="footer" data-position="fixed">
-            <h4>Éste programa es de libre uso <span style="color: forestgreen;">:-)</span></h4>
-        </div>
     </div>
 
-
-
-    <!-- PAGINA REPRODUCTOR -->
-    <div data-role="page" id="reproductorPagina" data-theme="b">
-        <!-- CONTENIDO -->
-        <!-- LOGO -->
-        <div role="main" class="ui-content" style="text-align: center;margin-top: 180px;">
-            <img id="logoEmisoraSonando">
-            <p style="margin-top: 30px;color: rgb(49, 240, 49);font-size: 32px;" id="emisoraSonando"></p>
-        </div>
-
-        <!-- PIE DE PÁGINA -->
-        <div data-role="footer" data-position="fixed">
-            <div data-role="navbar" data-iconpos="left">
-                <ul>
-                    <li><button data-icon="home" id="botonVolver">Volver</button></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-
-
-    <script type="text/javascript" src="js/datosEmisoras.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
 </body>
 
 </html>
