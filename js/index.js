@@ -2,44 +2,47 @@ $(document).on('ready', function () {
     var radios = datosEmisoras
     var listaEmisoras = $('#listaEmisoras')
     var reproductor = new Audio()
+    var sonando= false
 
     //CONTRUIR LISTA DE EMISORAS
     radios.forEach((emisora) => {
-        let url = '<li><a href="#">'
-        let logo = '<img src="' + emisora.logo + '">'
+        let urlVacia = '<li><a href="#">'
+        let logo = '<img src="' + emisora.logo + '" style="border-radius:3px">'
         let titulo = '<h2>' + emisora.emisora + '</h2>'
-        let descripcion= '<p style="color: #ffcc80;">' + emisora.descripcion + '</p></a></li>'
-        listaEmisoras.append(url + logo + titulo + descripcion)
+        listaEmisoras.append(urlVacia + logo + titulo)
         listaEmisoras.listview('refresh')
     })
 
     //DETECTAR CLICK EN LISTA
     $('#listaEmisoras li').on('click', function () {
         let indiceSeleccionado = $(this).index()
-        reproducirEmisora(indiceSeleccionado)
+        $('#panelLista').panel('close')
+        var radio= radios[indiceSeleccionado]
+        reproducirEmisora(radio)
     })
 
-    $('#botonVolver').on('click', function(){
-        pararSonido()
-        $.mobile.changePage('#principal', {
-            transition: 'pop',
-            changeHash: false,
-        })
-    })
-
-    function reproducirEmisora(indice) {
-        $.mobile.changePage('#reproductorPagina', {
-            changeHash: false,
-            transition: 'flip',
-        })
-        pararSonido()
-        $('#logoEmisoraSonando').attr('src', radios[indice].logo)
-        reproductor.src= radios[indice].url
-        $('#emisoraSonando').text(radios[indice].emisora)
-        reproductor.play()
-    }
-
-    function pararSonido(){
+    //REPRODUCIR EMISORA SELECCIONADA
+    function reproducirEmisora(radio) {
         reproductor.src= ''
+        $('#logoEmisoraSonando').attr('src', radio.logo)
+        reproductor.src= radio.url
+        $('#tituloEmisoraSonando').text(radio.emisora)
+        $('#botonPausa').text('Pausa')
+        $(this).css('background-color', '#0277bd')
+        reproductor.play()
+        sonando= true
     }
+
+    //BOTON PAUSA
+    $('#botonPausa').on('click', function(){
+        if(sonando){
+            reproductor.pause()
+            sonando= false
+            $(this).text('Reanudar')
+        }else{
+            reproductor.play()
+            sonando= true
+            $(this).text('Pausa')
+        }
+    })
 })
