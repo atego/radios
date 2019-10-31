@@ -42,12 +42,6 @@ var datosEmisoras = [
         "descripcion": "Música, éxitos..."
     },
     {
-        "emisora": "Mediterráneo smoothjazz",
-        "url": "http://listen.radionomy.com/mediterraneo-smoothjazz",
-        "logo": "./logos/mediterraneo.png",
-        "descripcion": "Smoothjazz, lounge, relajante"
-    },
-    {
         "emisora": "Relaxing jazz",
         "url": "http://streamingv2.shoutcast.com/ChillLounge-SmoothJazz",
         "logo": "./logos/relax.png",
