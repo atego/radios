@@ -1,0 +1,34 @@
+.mostrar {
+    visibility: show;
+}
+
+.ocultar {
+    visibility: hidden;
+}
+
+.emisora {
+    color: rgb(245, 148, 38);
+}
+
+.descripcion {
+    color: cornsilk;
+}
+
+.fondo-titulo {
+    background-color: rgb(49, 71, 78);
+    position: fixed;
+}
+
+.titulo {
+    color: rgb(78, 162, 218);
+    font-size: 24px;
+}
+
+.contenido {
+    margin: 70px auto;
+    width: 90%;
+}
+
+.emisora {
+    font-size: 20px;
+}
