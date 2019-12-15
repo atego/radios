@@ -61,7 +61,7 @@ var datosEmisoras = [
     },
     {
         "emisora": "Cinemix",
-        "url": "https://streaming.radionomy.com/CINEMIX?lang=es-ES%2ces%3bq%3d0.8%2cen-US%3bq%3d0.5%2cen%3bq%3d0.3&ad=radionodescripcion&appName=descripcionsite",
+        "url": "http://158.69.38.195:20082///;",
         "logo": "./logos/cinemix.png"
     },
     {
