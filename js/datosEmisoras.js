@@ -20,6 +20,11 @@ var datosEmisoras = [
         "logo": "./logos/rne.png"
     },
     {
+        "emisora": "Esradio",
+        "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-low.mp3",
+        "logo": "./logos/esradio.png"
+    },
+    {
         "emisora": "Melodía Fm",
         "url": "http://icecast-streaming.nice264.com/melodiafmback",
         "logo": "./logos/melodiaFm.png"
