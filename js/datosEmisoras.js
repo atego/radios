@@ -1,8 +1,7 @@
 var datosEmisoras = [
     {
         "emisora": "Onda Cero",
-        //"url": "http://icecast-streaming.nice264.com/pamplona",
-        "url": "http://217.125.23.154/directo",
+        "url": "http://icecast-streaming.nice264.com/ondacero",
         "logo": "./logos/ondacero.png"
     },
     {
