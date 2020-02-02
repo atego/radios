@@ -9,6 +9,11 @@ var datosEmisoras = [
         "url": "http://server1.emitironline.com:9866/radio",
         "logo": "./logos/cope.png"
     },
+        {
+        "emisora": "Cope Nacional",
+        "url": "https://flucast-b03-06.flumotion.com/cope/net1.mp3",
+        "logo": "./logos/cope.png"
+    },
     {
         "emisora": "Ser",
         "url": "http://20423.live.streamtheworld.com/CADENASER_SC",
