@@ -95,6 +95,16 @@ var datosEmisoras = [
         "logo": "./logos/radioArt.png"
     },
     {
+        "emisora": "Euskadi",
+        "url": "http://mp3-eitb.stream.flumotion.com/eitb/radioeuskadi.mp3",
+        "logo": "./logos/euskadi.png"
+    },
+    {
+        "emisora": "Onda Vasca",
+        "url": "http://www.ondavasca.com:8000/navarra",
+        "logo": "./logos/ondaVasca.png"
+    },
+    {
         "emisora": "Vaughan radio",
         "url": "http://vaughanradioweb.streaming-pro.com:8057/;",
         "logo": "./logos/vaughan.png",
