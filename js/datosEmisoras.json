@@ -1,0 +1,89 @@
+{
+    "emisoras": [
+        {
+            "emisora": "Onda Cero",
+            "url": "http://icecast-streaming.nice264.com/pamplona",
+            "logo": "logos/ondacero.png"
+        },
+        {
+            "emisora": "Cope",
+            "url": "http://server1.emitironline.com:9866/radio",
+            "logo": "logos/cope.png"
+        },
+        {
+            "emisora": "Ser",
+            "url": "http://20423.live.streamtheworld.com/CADENASER_SC",
+            "logo": "logos/ser.png"
+        },
+        {
+            "emisora": "Esradio",
+            "url": "http://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-low.mp3",
+            "logo": "logos/esradio.png"
+        },
+        {
+            "emisora": "Melodía Fm",
+            "url": "http://icecast-streaming.nice264.com/melodiafmback",
+            "logo": "logos/melodiaFm.png"
+        },
+        {
+            "emisora": "Los 40 Clasic",
+            "url": "http://21303.live.streamtheworld.com/LOS40_CLASSIC_SC",
+            "logo": "logos/los40.png"
+        },
+        {
+            "emisora": "Kiss Fm",
+            "url": "http://kissfm.kissfmradio.cires21.com/kissfm.mp3",
+            "logo": "logos/kissFm.png"
+        },
+        {
+            "emisora": "Europa Fm",
+            "url": "http://server6.20comunicacion.com:8102/stream/1/",
+            "logo": "logos/europaFm.png"
+        },
+        {
+            "emisora": "Rock Fm",
+            "url": "http://rockfm-cope-rrcast.flumotion.com/cope/rockfm-low.mp3",
+            "logo": "logos/rockFm.png"
+        },
+        {
+            "emisora": "Mediterráneo",
+            "url": "http://listen.radionomy.com/mediterraneo-smoothjazz",
+            "logo": "logos/mediterraneo.png"
+        },
+        {
+            "emisora": "Relaxing jazz",
+            "url": "http://streamingv2.shoutcast.com/ChillLounge-SmoothJazz",
+            "logo": "logos/relax.png"
+        },
+        {
+            "emisora": "Baladas",
+            "url": "http://listen.radionomy.com/onlyromantic",
+            "logo": "logos/baladas.png"
+        },
+        {
+            "emisora": "Cinemix",
+            "url": "http://158.69.38.195:20082///;",
+            "logo": "logos/cinemix.png"
+        },
+        {
+            "emisora": "Kusc Clásica",
+            "url": "http://16643.live.streamtheworld.com/KUSCMP128_SC",
+            "logo": "logos/kusc.png"
+        },
+        {
+            "emisora": "Radio Nature",
+            "url": "http://listen.radionomy.com/radionature",
+            "logo": "logos/radioNature.png"
+        },
+        {
+            "emisora": "Radio Art",
+            "url": "http://live.radioart.com/fNew_age.mp3",
+            "logo": "logos/radioArt.png"
+        },
+        {
+            "emisora": "Vaughan radio",
+            "url": "http://vaughanradioweb.streaming-pro.com:8057/;",
+            "logo": "logos/vaughan.png"
+        }
+    ]
+}
