@@ -71,7 +71,7 @@ var datosEmisoras = [
   },
   {
       "emisora": "Cinemix",
-      "url": "http://158.69.38.195:20082///;",
+      "url": "http://94.23.51.96:8001/;",
       "logo": "./logos/cinemix.png"
   },
   {
