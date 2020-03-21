@@ -71,7 +71,7 @@ var datosEmisoras = [
   },
   {
       "emisora": "Cinemix",
-      "url": "https://onlineradiobox.com/json/fr/cinemix/play?platform=web",
+      "url": "http://stream.sonixcast.com:9098/;stream.nsv",
       "logo": "./logos/cinemix.png"
   },
   {
