@@ -71,7 +71,7 @@ var datosEmisoras = [
   },
   {
       "emisora": "Cinemix",
-      "url": "http://94.23.51.96:8001/;",
+      "url": "https://onlineradiobox.com/json/fr/cinemix/play?platform=web",
       "logo": "./logos/cinemix.png"
   },
   {
