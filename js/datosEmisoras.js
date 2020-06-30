@@ -5,7 +5,7 @@ var datosEmisoras = [
       "logo": "./logos/ondacero.png"
   },
   {
-      "emisora": "Cope",
+      "emisora": "Cope Estella",
       "url": "http://server1.emitironline.com:9866/radio",
       "logo": "./logos/cope.png"
   },
