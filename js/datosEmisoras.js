@@ -71,7 +71,7 @@ var datosEmisoras = [
   },
   {
       "emisora": "Cinemix",
-      "url": "http://stream.sonixcast.com:9098/;stream.nsv",
+      "url": "http://158.69.38.194:9098/stream/1/",
       "logo": "./logos/cinemix.png"
   },
   {
