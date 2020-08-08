@@ -71,7 +71,7 @@ var datosEmisoras = [
   },
   {
       "emisora": "Cinemix",
-      "url": "http://stream.streamallover.com:9098/;",
+      "url": "http://94.23.51.96:8001/;",
       "logo": "./logos/cinemix.png"
   },
   {
