@@ -61,7 +61,7 @@ var datosEmisoras = [
   },
   {
       "emisora": "Relaxing jazz",
-      "url": "http://stream-02-eu.relaxingjazz.com/stream/1/",
+      "url": "http://stream-02-eu.relaxingjazz.com/stream/3/",
       "logo": "./logos/relax.png"
   },
   {
