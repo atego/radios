@@ -81,7 +81,7 @@ var datosEmisoras = [
   },
   {
       "emisora": "Yimago",
-      "url": "http://199.195.194.94:8109/;stream/1",
+      "url": "https://listen.openstream.co/3664/audio",
       "logo": "./logos/yimago.png",
   },
   {
