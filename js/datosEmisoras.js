@@ -71,7 +71,7 @@ var datosEmisoras = [
   },
   {
       "emisora": "Cinemix",
-      "url": "http://94.23.51.96:8001/;",
+      "url": "https://streamingv2.shoutcast.com/CINEMIX?lang=es-ES%2ces%3bq%3d0.8%2cen-US%3bq%3d0.5%2cen%3bq%3d0.3%20&%20ad=radionoweb%20&%20appName=website",
       "logo": "./logos/cinemix.png"
   },
   {
