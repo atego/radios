@@ -20,11 +20,6 @@ var datosEmisoras = [
       "logo": "./logos/ser.png"
   },
   {
-      "emisora": "Rne",
-      "url": "https://rnenav.rtveradio.cires21.com/rnenav.mp3",
-      "logo": "./logos/rne.png"
-  },
-  {
       "emisora": "Esradio",
       "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-low.mp3",
       "logo": "./logos/esradio.png"
@@ -35,19 +30,9 @@ var datosEmisoras = [
       "logo": "./logos/melodiaFm.png"
   },
   {
-      "emisora": "Los 40 Clasic",
-      "url": "http://21303.live.streamtheworld.com/LOS40_CLASSIC_SC",
-      "logo": "./logos/los40.png"
-  },
-  {
       "emisora": "Kiss Fm",
       "url": "http://kissfm.kissfmradio.cires21.com/kissfm.mp3",
       "logo": "./logos/kissFm.png"
-  },
-  {
-      "emisora": "Europa Fm",
-      "url": "http://server6.20comunicacion.com:8102/stream/1/",
-      "logo": "./logos/europaFm.png",
   },
   {
       "emisora": "Rock Fm",
@@ -58,11 +43,6 @@ var datosEmisoras = [
       "emisora": "Mediterráneo",
       "url": "http://listen.radionomy.com/mediterraneo-smoothjazz",
       "logo": "./logos/mediterraneo.png"
-  },
-  {
-      "emisora": "Relaxing jazz",
-      "url": "http://stream-02-eu.relaxingjazz.com/stream/1/?tok=59169591Xvrf4Mrh7xinXH5HAQtKoyw3fV%2FhfxlqIFkIAAAAAAAAAAAAAAAAAA%3D",
-      "logo": "./logos/relax.png"
   },
   {
       "emisora": "Baladas",
@@ -85,11 +65,6 @@ var datosEmisoras = [
       "logo": "./logos/yimago.png",
   },
   {
-      "emisora": "Radio Nature",
-      "url": "https://listen.radionomy.com/radionature",
-      "logo": "./logos/radioNature.png"
-  },
-  {
       "emisora": "Radio Art",
       "url": "http://live.radioart.com/fNew_age.mp3",
       "logo": "./logos/radioArt.png"
@@ -104,9 +79,4 @@ var datosEmisoras = [
       "url": "http://www.ondavasca.com:8000/navarra",
       "logo": "./logos/ondaVasca.png"
   },
-  {
-      "emisora": "Vaughan radio",
-      "url": "http://vaughanradioweb.streaming-pro.com:8057/;",
-      "logo": "./logos/vaughan.png",
-  }
 ]
