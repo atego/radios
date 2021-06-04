@@ -51,7 +51,7 @@ var datosEmisoras = [
   },
   {
       "emisora": "Cinemix",
-      "url": "https://streamingv2.shoutcast.com/CINEMIX?lang=es-ES%2ces%3bq%3d0.8%2cen-US%3bq%3d0.5%2cen%3bq%3d0.3%20&%20ad=radionoweb%20&%20appName=website",
+      "url": "https://kathy.torontocast.com:1825/stream",
       "logo": "./logos/cinemix.png"
   },
   {
